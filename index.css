@@ -1,0 +1,77 @@
+body{
+    background-image: linear-gradient(90deg,hotpink,rgb(244, 244, 95));
+    margin-top: 0px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  main {
+    background-image: url("assets/img1.jpg") !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 70%;
+  
+  }
+  #main{
+    height: 500px;
+    width: 100%;
+    position: relative;
+  }
+  #maincard{
+    background-color:lightcoral;
+    color: white;
+    opacity: 0.8;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    padding: 10px;
+  }
+ 
+.card{
+    background-color: whitesmoke;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 50px;
+}
+
+.responsive{
+    height: 140px;
+    width: 150px;
+    border-radius:5px 35px 5px 5px;
+}
+
+.card-responsive{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.btn{
+    background-color: whitesmoke;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 10px;
+    /* margin-top: 10px;
+    margin-left: 500px; */
+}
+
+.btn-res{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
